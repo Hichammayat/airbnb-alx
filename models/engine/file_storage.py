@@ -3,6 +3,7 @@
 """
 import json
 from models.base_model import BaseModel
+from models.user import User
 
 
 class FileStorage:
@@ -13,6 +14,8 @@ class FileStorage:
     __objects = dict()
 
     def __init__(self):
+        """Constructor method for FileStorage class
+        """
         pass
 
     def all(self):
